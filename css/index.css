@@ -104,9 +104,9 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+/*    background: black;*/
     margin: 20px 2.5%;
-    color: white;
+/*    color: white;*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -143,4 +143,237 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* General css to be shared by all pages */
+body {
+	margin: 0 50px;
+}
+
+header nav {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-evenly;
+	align-items: baseline;
+}
+
+header nav a {
+	text-decoration: none;
+	color: black;
+}
+
+header nav a:hover {
+	color: red;
+	font-weight: bolder;
+}
+
+/* Sarah's CSS additions start here for index.html */
+.traffic-img {
+	display: flex;
+	align-content: center;
+	margin: 30px 0 30px 0;
+}
+
+.boxes {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-content: space-between;
+	align-items: center;
+
+}
+
+.box1 {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-content: center;
+	padding: 40px 25px;
+	background: teal;
+	width: 100px;
+	height: 100px;
+	margin: 30px;
+	color: mintcream;
+}
+
+.box2 {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-content: center;
+	padding: 40px 25px;
+	background: gold;
+	width: 100px;
+	height: 100px;
+	margin: 30px;
+
+}
+
+.box3 {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-content: center;
+	padding: 40px 25px;
+	background: cadetblue;
+	width: 100px;
+	height: 100px;
+	margin: 30px;
+
+}
+
+.box4 {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-content: center;
+	padding: 40px 25px;
+	background: coral;
+	width: 100px;
+	height: 100px;
+	margin: 30px;
+
+}
+
+.box5 {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-content: center;
+	padding: 40px 25px;
+	background: crimson;
+	width: 100px;
+	height: 100px;
+	margin: 30px;
+	color: mintcream;
+
+}
+
+.box6 {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-content: center;
+	padding: 40px 25px;
+	background: forestgreen;
+	width: 100px;
+	height: 100px;
+	margin: 30px;
+
+}
+
+.box7 {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-content: center;
+	padding: 40px 25px;
+	background: darkorchid;
+	width: 100px;
+	height: 100px;
+	margin: 30px;
+
+}
+
+.box8 {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-content: center;
+	padding: 40px 25px;
+	background: hotpink;
+	width: 100px;
+	height: 100px;
+	margin: 30px;
+
+}
+
+.box9 {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-content: center;
+	padding: 40px 25px;
+	background: indigo;
+	width: 100px;
+	height: 100px;
+	margin: 30px;
+	color: mintcream;
+
+}
+
+.box10 {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-content: center;
+	padding: 40px 25px;
+	background: dodgerblue;
+	width: 100px;
+	height: 100px;
+	margin: 30px;
+	
+}
+
+/* Sarah's CSS additions start here for about.html */
+
+.cityscape {
+	display: flex;
+	align-content: center;
+	margin: 30px 0 30px 0;	
+}
+
+.about-container {
+	margin-bottom: 20px;
+}
+
+.about-middle-content {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.about-middle-content h2 {
+    display: flex;
+	justify-content: flex-start;
+	padding: 0;
+    margin-bottom: 1em;
+}
+
+.about-text-container {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;
+	width: 47%;
+	margin-bottom: 20px;
+	border-bottom: 1px dashed black;
+}
+
+.midcontent-img {
+	margin-bottom: 10px;
+}
+
+.learn-more {
+	display: flex;
+	justify-content: center;
+	margin: 20px 0;
+	border: 2px solid black;
+	border-radius: 5px;
+	width: inherit;
+	padding: 10px;
+}
+
+.about-bottom-content {
+    display: flex;
+    margin: 0 0 20px;
+    justify-content: space-around;
+}
+
+.about-bottom-content .bottom-text-container {
+    padding-right: 4%;
+}
+
+.about-bottom-content .bottom-text-container:last-child {
+    padding-right: 0;
 }
